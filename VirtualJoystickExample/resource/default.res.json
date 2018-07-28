@@ -1,0 +1,25 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,circle_png,ball_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "circle_png",
+			"type": "image",
+			"url": "assets/circle.png"
+		},
+		{
+			"name": "ball_png",
+			"type": "image",
+			"url": "assets/ball.png"
+		}
+	]
+}

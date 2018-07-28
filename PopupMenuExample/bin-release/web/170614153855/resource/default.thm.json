@@ -1,0 +1,32 @@
+{
+  "skins": {
+    "eui.Button": "resource/eui_skins/ButtonSkin.exml",
+    "eui.CheckBox": "resource/eui_skins/CheckBoxSkin.exml",
+    "eui.HScrollBar": "resource/eui_skins/HScrollBarSkin.exml",
+    "eui.HSlider": "resource/eui_skins/HSliderSkin.exml",
+    "eui.Panel": "resource/eui_skins/PanelSkin.exml",
+    "eui.TextInput": "resource/eui_skins/TextInputSkin.exml",
+    "eui.ProgressBar": "resource/eui_skins/ProgressBarSkin.exml",
+    "eui.RadioButton": "resource/eui_skins/RadioButtonSkin.exml",
+    "eui.Scroller": "resource/eui_skins/ScrollerSkin.exml",
+    "eui.ToggleSwitch": "resource/eui_skins/ToggleSwitchSkin.exml",
+    "eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
+    "eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
+    "eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml"
+  },
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    {
+      "path": "src/popupMenu/UIPopupMenuSkin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"UIPopupMenuSkin\" width=\"182\" height=\"46\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Rect id=\"listMask\" width=\"182\" height=\"20\" y=\"0\" x=\"0\"/>\n\t<e:Rect id=\"menuBgMask\" width=\"182\" height=\"20\" x=\"0\" y=\"0\"/>\n\t<e:Image id=\"menuBg\" source=\"menubg_png\" scale9Grid=\"46,32,92,75\" x=\"0\" y=\"0\" mask=\"menuBgMask\"/>\n\t<e:List id=\"list\" width=\"182\" anchorOffsetX=\"0\" x=\"0\" y=\"0\" mask=\"listMask\"/>\n\t<e:Button id=\"menuBtn\" label=\"\" anchorOffsetX=\"0\" x=\"0\" y=\"0\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"menubtn_png\" source.down=\"menubtn_png\"/>\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n</e:Skin>"
+    },
+    {
+      "path": "src/HomeSceneSkin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"HomeSceneSkin\" width=\"640\" height=\"1136\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Rect left=\"0\" right=\"0\" top=\"0\" bottom=\"0\" fillAlpha=\"1\" fillColor=\"0x2a2de0\"/>\n\t<ns1:UIPopupMenu id=\"popupMenu\" x=\"198\" y=\"269\" skinName=\"UIPopupMenuSkin\"/>\n\t<e:Label id=\"msgLabel\" text=\"\" x=\"198\" y=\"204\" anchorOffsetX=\"0\" width=\"396\" anchorOffsetY=\"0\" height=\"44\"/>\n</e:Skin>"
+    },
+    {
+      "path": "src/popupMenu/ListItemSkin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"ListItemSkin\" width=\"200\" height=\"46\" xmlns:e=\"http://ns.egret.com/eui\">\n\t<e:Rect width=\"200\" height=\"44\" fillAlpha=\"0.1\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t<e:Label anchorOffsetX=\"0\" width=\"182\" height=\"46\" verticalAlign=\"middle\" textAlign=\"left\" text=\"{data.itemValue}\" x=\"18\" y=\"0\"/>\n</e:Skin>"
+    }
+  ]
+}

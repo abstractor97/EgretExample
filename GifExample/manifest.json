@@ -1,0 +1,21 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/res/res.js",
+		"libs/modules/tween/tween.js",
+		"libsrc/weixinapi/bin/weixinapi/weixinapi.js"
+	],
+	"game": [
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/base/SingleClass.js",
+		"bin-debug/utils/GestureDrag.js",
+		"bin-debug/utils/GesturePinch.js",
+		"bin-debug/utils/StageUtils.js",
+		"bin-debug/view/HomeScene.js"
+	]
+}

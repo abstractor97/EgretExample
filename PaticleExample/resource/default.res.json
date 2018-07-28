@@ -1,0 +1,28 @@
+{
+	"groups":[{
+			"keys":"fire_json,fire_png,snow_json,snow_png",
+			"name":"preload"
+		}],
+	"resources":[
+		{
+			"name":"fire_json",
+			"type":"json",
+			"url":"assets/fire.json"
+		},
+		{
+			"name":"fire_png",
+			"type":"image",
+			"url":"assets/fire.png"
+		},
+		{
+			"name":"snow_json",
+			"type":"json",
+			"url":"assets/snow.json"
+		},
+		{
+			"name":"snow_png",
+			"type":"image",
+			"url":"assets/snow.png"
+		}
+	]
+}

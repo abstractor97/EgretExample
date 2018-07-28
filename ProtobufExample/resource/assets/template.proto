@@ -1,0 +1,40 @@
+//template
+message user_login{
+	required int32 userId = 1;
+	required string userName = 2;
+}
+
+message user_login2{
+	required int32 userId = 1;
+	required string userName = 2;
+}
+
+message user_login3{
+	required int32 userId = 1;
+	required string userName = 2;
+}
+
+message user_login4{
+	required int32 userId = 1;
+	required string userName = 2;
+}
+
+message user_login5{
+	required int32 userId = 1;
+	required string userName = 2;
+}
+
+message user_login6{
+	required int32 userId = 1;
+	required string userName = 2;
+}
+
+message user_login7{
+	required int32 userId = 1;
+	required string userName = 2;
+}
+
+message user_login8{
+	required int32 userId = 1;
+	required string userName = 2;
+}

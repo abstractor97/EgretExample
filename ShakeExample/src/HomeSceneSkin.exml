@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="bg_jpg" width="559.62" height="993.33" anchorOffsetX="0" anchorOffsetY="0" x="40" y="71"/>
+	<e:Label text="点击图片震动" x="117.48" y="22.67" anchorOffsetX="0" width="404.67" verticalAlign="middle" textAlign="center"/>
+</e:Skin>

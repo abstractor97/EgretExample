@@ -1,0 +1,18 @@
+{
+	"groups":[{
+			"keys":"m21_r_png,m3_r_png",
+			"name":"preload"
+		}],
+	"resources":[
+		{
+			"name":"m21_r_png",
+			"type":"image",
+			"url":"assets/m21_r.png"
+		},
+		{
+			"name":"m3_r_png",
+			"type":"image",
+			"url":"assets/m3_r.png"
+		}
+	]
+}

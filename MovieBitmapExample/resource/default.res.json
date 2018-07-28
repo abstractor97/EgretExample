@@ -1,0 +1,105 @@
+{
+	"groups": [
+		{
+			"keys": "boom_png,dragon12_jpg,dragon13_jpg,dragon14_jpg,dragon15_jpg,dragon16_jpg,dragon17_jpg,dragon0_jpg,dragon1_jpg,dragon2_jpg,dragon3_jpg,dragon4_jpg,dragon5_jpg,dragon6_jpg,dragon7_jpg,dragon8_jpg,dragon9_jpg,dragon10_jpg,dragon11_jpg",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/boom.png",
+			"type": "image",
+			"name": "boom_png"
+		},
+		{
+			"name": "dragon12_jpg",
+			"type": "image",
+			"url": "assets/dragon12.jpg"
+		},
+		{
+			"name": "dragon13_jpg",
+			"type": "image",
+			"url": "assets/dragon13.jpg"
+		},
+		{
+			"name": "dragon14_jpg",
+			"type": "image",
+			"url": "assets/dragon14.jpg"
+		},
+		{
+			"name": "dragon15_jpg",
+			"type": "image",
+			"url": "assets/dragon15.jpg"
+		},
+		{
+			"name": "dragon16_jpg",
+			"type": "image",
+			"url": "assets/dragon16.jpg"
+		},
+		{
+			"name": "dragon17_jpg",
+			"type": "image",
+			"url": "assets/dragon17.jpg"
+		},
+		{
+			"name": "dragon0_jpg",
+			"type": "image",
+			"url": "assets/dragon0.jpg"
+		},
+		{
+			"name": "dragon1_jpg",
+			"type": "image",
+			"url": "assets/dragon1.jpg"
+		},
+		{
+			"name": "dragon2_jpg",
+			"type": "image",
+			"url": "assets/dragon2.jpg"
+		},
+		{
+			"name": "dragon3_jpg",
+			"type": "image",
+			"url": "assets/dragon3.jpg"
+		},
+		{
+			"name": "dragon4_jpg",
+			"type": "image",
+			"url": "assets/dragon4.jpg"
+		},
+		{
+			"name": "dragon5_jpg",
+			"type": "image",
+			"url": "assets/dragon5.jpg"
+		},
+		{
+			"name": "dragon6_jpg",
+			"type": "image",
+			"url": "assets/dragon6.jpg"
+		},
+		{
+			"name": "dragon7_jpg",
+			"type": "image",
+			"url": "assets/dragon7.jpg"
+		},
+		{
+			"name": "dragon8_jpg",
+			"type": "image",
+			"url": "assets/dragon8.jpg"
+		},
+		{
+			"name": "dragon9_jpg",
+			"type": "image",
+			"url": "assets/dragon9.jpg"
+		},
+		{
+			"name": "dragon10_jpg",
+			"type": "image",
+			"url": "assets/dragon10.jpg"
+		},
+		{
+			"name": "dragon11_jpg",
+			"type": "image",
+			"url": "assets/dragon11.jpg"
+		}
+	]
+}

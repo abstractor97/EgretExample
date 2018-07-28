@@ -1,0 +1,20 @@
+{
+	"groups": [
+		{
+			"keys": "egret_icon_png,description_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		}
+	]
+}

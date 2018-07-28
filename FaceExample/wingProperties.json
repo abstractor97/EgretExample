@@ -1,0 +1,26 @@
+{
+	"close":false,
+	"natures":["egretProject"],
+	"resourcePlugin":{
+		"configs":[{
+				"configPath":"resource/default.res.json",
+				"relativePath":"resource/"
+			}],
+		"id":"org.egret-labs.resource",
+		"library":{
+			"children":[
+				{
+					"isFolder":false,
+					"key":"m21_r_png",
+					"name":"m21_r_png"
+				},
+				{
+					"isFolder":false,
+					"key":"m3_r_png",
+					"name":"m3_r_png"
+				}
+			]
+		}
+	},
+	"theme":"resource/default.thm.json"
+}

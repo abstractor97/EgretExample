@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,pan_png,eraser_png,reset_jpg",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "pan_png",
+			"type": "image",
+			"url": "assets/pan.png"
+		},
+		{
+			"name": "eraser_png",
+			"type": "image",
+			"url": "assets/eraser.png"
+		},
+		{
+			"name": "reset_jpg",
+			"type": "image",
+			"url": "assets/reset.jpg"
+		}
+	]
+}

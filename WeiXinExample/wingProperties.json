@@ -1,0 +1,26 @@
+{
+	"close":false,
+	"natures":["egretProject"],
+	"resourcePlugin":{
+		"configs":[{
+				"configPath":"resource/default.res.json",
+				"relativePath":"resource/"
+			}],
+		"id":"org.egret-labs.resource",
+		"library":{
+			"children":[
+				{
+					"isFolder":false,
+					"key":"share_jpg",
+					"name":"share_jpg"
+				},
+				{
+					"isFolder":false,
+					"key":"button_jpg",
+					"name":"button_jpg"
+				}
+			]
+		}
+	},
+	"theme":"resource/default.thm.json"
+}

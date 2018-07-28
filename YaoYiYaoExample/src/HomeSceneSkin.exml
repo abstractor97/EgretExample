@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="label0" text="Label" x="55.64" y="302.42" anchorOffsetX="0" width="466.42" anchorOffsetY="0" height="37.58"/>
+	<e:Label id="label1" text="Label" x="58.09" y="357.87" anchorOffsetX="0" width="466.42" anchorOffsetY="0" height="37.58"/>
+	<e:Label id="label2" text="Label" x="59.02" y="416.36" anchorOffsetX="0" width="466.42" anchorOffsetY="0" height="37.58"/>
+	<e:Label id="label3" text="Label" x="61.47" y="479.36" anchorOffsetX="0" width="466.42" anchorOffsetY="0" height="37.58"/>
+</e:Skin>

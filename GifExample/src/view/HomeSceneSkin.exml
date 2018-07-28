@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HomeSceneSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="openFileBtn" source="m21_r_png" bottom="119" x="102"/>
+	<e:Image id="okBtn" source="m3_r_png" x="105" bottom="22"/>
+	<e:Group id="pictureGroup" height="350" width="400" x="40" y="85">
+		<e:Group id="footGroup" touchEnabled="false" touchChildren="false" width="400" height="350">
+			<e:Image id="footImage" source="mask1_png" width="400" height="350"/>
+		</e:Group>
+		<e:Group id="imgGroup" touchChildren="true" touchEnabled="false" width="400" height="350">
+			<e:Image id="myImg"/>
+		</e:Group>
+		<e:Group id="topGroup" touchChildren="false" touchEnabled="false" width="400" height="350">
+			<e:Image source="mask1__png" width="400" height="350"/>
+		</e:Group>
+	</e:Group>
+	<e:Rect id="pictureMask" height="350" width="400" x="40" y="85"/>
+</e:Skin>

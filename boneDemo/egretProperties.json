@@ -1,0 +1,36 @@
+{
+	"native": {
+		"path_ignore": [],
+		"android_path": "../testapppppppppp"
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "5.0.14",
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "promise",
+			"path": "./promise"
+		},
+		{
+			"name": "game"
+		}
+	]
+}

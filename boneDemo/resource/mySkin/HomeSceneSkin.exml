@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeSceneSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x808080"/>
+	<e:Group id="boneGroup" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="uiGroup" left="0" right="0" top="0" bottom="0">
+		<e:Label id="boneLabel" text="骨骼数量：0" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="200" x="906" y="94.65" scaleX="1" scaleY="1"/>
+		<e:Button id="clearBone" label="清理骨骼" x="785.96" y="84.65" scaleX="1" scaleY="1"/>
+		<e:Button id="bone10" label="+10骨骼" x="530" y="84.65" scaleX="1" scaleY="1"/>
+		<e:Button id="bone100" label="+100骨骼" x="657.33" y="84.65" scaleX="1" scaleY="1"/>
+		<e:Button id="bone1" label="+1骨骼" x="410" y="84.65" scaleX="1" scaleY="1"/>
+		<e:Label id="mcLabel" text="动画数量：0" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="200" x="906" y="26.35" scaleX="1" scaleY="1"/>
+		<e:Label id="fastLabel" text="极速数量：0" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="200" x="906" y="153" scaleX="1" scaleY="1"/>
+		<e:Button id="clearMC" label="清理动画" x="785.96" y="16.35" scaleX="1" scaleY="1"/>
+		<e:Button id="mc10" label="+10帧动画" x="530" y="16.35" scaleX="1" scaleY="1"/>
+		<e:Button id="mc100" label="+100帧动画" x="657.33" y="16.35" scaleX="1" scaleY="1"/>
+		<e:Button id="mc1" label="+1帧动画" x="410" y="16.35" scaleX="1" scaleY="1"/>
+		<e:Button id="fast1" label="+1极速" x="410" y="143" scaleX="1" scaleY="1"/>
+		<e:Button id="fast10" label="+10极速" x="530" y="143" scaleX="1" scaleY="1"/>
+		<e:Button id="fast100" label="+100极速" x="657.33" y="143" scaleX="1" scaleY="1"/>
+		<e:Button id="clearFast" label="清理极速" x="785.96" y="143" scaleX="1" scaleY="1"/>
+		<e:Button id="bin1" label="+1二进" x="410" y="208" scaleX="1" scaleY="1"/>
+		<e:Button id="bin10" label="+10二进" x="530" y="208" scaleX="1" scaleY="1"/>
+		<e:Button id="bin100" label="+100二进" x="657.33" y="208" scaleX="1" scaleY="1"/>
+		<e:Button id="clearBin" label="清理二进制" x="785.96" y="208" scaleX="1" scaleY="1"/>
+		<e:Label id="binLabel" text="二进数量：0" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="200" x="902.67" y="216.32" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

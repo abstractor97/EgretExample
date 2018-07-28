@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bmGroup" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="labelGroup" left="0" right="0" top="0" bottom="0">
+		<e:Label id="enterFrameLabel" text="Label" x="281.58" y="57.37" size="40" textColor="0xfc0202" anchorOffsetX="0" width="457.09"/>
+		<e:Label id="timerLabel" text="Label" x="282.51" y="109.78" size="40" textColor="0xFC0202" anchorOffsetX="0" width="457.09"/>
+		<e:Label id="dateTimerLabel" text="Label" x="284.91" y="159.15" size="40" textColor="0xFC0202" anchorOffsetX="0" width="457.09"/>
+	</e:Group>
+</e:Skin>

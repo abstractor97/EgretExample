@@ -1,0 +1,17 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/res/res.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js"
+	],
+	"game": [
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/HomeScene.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/popupMenu/UIPopupMenu.js"
+	]
+}

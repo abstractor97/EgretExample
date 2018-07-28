@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bg" left="0" right="0" top="0" bottom="0" fillColor="0x1b2756"/>
+	<e:Rect id="bg0" fillColor="0xf2f3f7" width="594.55" height="102.67" y="309" anchorOffsetX="0" anchorOffsetY="0" x="23"/>
+	<e:Label id="euiLabel" text="ABCDEFGHIJK" x="0.97" y="324.91" size="40" width="639.39" height="87.87" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" textColor="0x050000"/>
+	<e:Label text="长按复制优惠码" y="233.4" size="40" width="396.97" height="50" verticalAlign="middle" textAlign="center" anchorOffsetX="0" horizontalCenter="0" textColor="0xf9f7f7"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="508" height="150" x="56" y="148" fillColor="0xfcf9f9" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Rect width="394" height="88" x="62" y="396" fillColor="0xFCF9F9" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Rect id="okBtn" width="90" height="88" x="474" y="396" fillColor="0xFCF9F9" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller id="chatScroller" width="504" height="150" x="58" y="150" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group>
+			<e:Label id="chatLabel" text="" scaleX="1" scaleY="1" textColor="0x0a0000" anchorOffsetY="0" width="502" x="0" y="0" anchorOffsetX="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:EditableText id="inputLabel" width="338" height="72" text="Label" x="84" y="404" anchorOffsetX="0" textColor="0x070000" anchorOffsetY="0" textAlign="left" verticalAlign="middle"/>
+</e:Skin>

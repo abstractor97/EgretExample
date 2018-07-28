@@ -1,0 +1,20 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,guidebg_jpg",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "guidebg_jpg",
+			"type": "image",
+			"url": "assets/guidebg.jpg"
+		}
+	]
+}

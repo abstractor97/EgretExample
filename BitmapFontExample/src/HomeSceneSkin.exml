@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HomeSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui">
+	<e:BitmapLabel x="167" y="385" font="test_fnt" text="123"/>
+</e:Skin>

@@ -1,0 +1,33 @@
+{
+	"groups":[{
+			"keys":"activityBg_jpg,activityPic1_jpg,activityPic2_jpg,activityPic3_jpg,activityPic4_jpg",
+			"name":"preload"
+		}],
+	"resources":[
+		{
+			"name":"activityBg_jpg",
+			"type":"image",
+			"url":"assets/activityBg.jpg"
+		},
+		{
+			"name":"activityPic1_jpg",
+			"type":"image",
+			"url":"assets/activityPic1.jpg"
+		},
+		{
+			"name":"activityPic2_jpg",
+			"type":"image",
+			"url":"assets/activityPic2.jpg"
+		},
+		{
+			"name":"activityPic3_jpg",
+			"type":"image",
+			"url":"assets/activityPic3.jpg"
+		},
+		{
+			"name":"activityPic4_jpg",
+			"type":"image",
+			"url":"assets/activityPic4.jpg"
+		}
+	]
+}

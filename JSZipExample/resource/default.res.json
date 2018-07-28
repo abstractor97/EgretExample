@@ -1,0 +1,15 @@
+{
+	"groups": [
+		{
+			"keys": "fire_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/fire.png",
+			"type": "image",
+			"name": "fire_png"
+		}
+	]
+}

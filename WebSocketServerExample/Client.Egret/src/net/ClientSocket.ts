@@ -1,0 +1,10 @@
+/**
+ *
+ * @author 
+ *
+ */
+class ClientSocket {
+
+  
+    
+}

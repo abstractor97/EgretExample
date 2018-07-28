@@ -1,0 +1,26 @@
+{
+	"close":false,
+	"natures":["egretProject"],
+	"resourcePlugin":{
+		"configs":[{
+				"configPath":"resource/default.res.json",
+				"relativePath":"resource/"
+			}],
+		"id":"org.egret-labs.resource",
+		"library":{
+			"children":[
+				{
+					"isFolder":false,
+					"key":"fire_png",
+					"name":"fire_png"
+				},
+				{
+					"isFolder":false,
+					"key":"snow_png",
+					"name":"snow_png"
+				}
+			]
+		}
+	},
+	"theme":"resource/default.thm.json"
+}

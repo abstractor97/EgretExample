@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HomeSceneSkin" width="640" height="1200" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Image source="activityBg_jpg"/>
+	<ns1:ScrollView width="498" height="756" x="83" y="147">
+		<e:Group xmlns:e="http://ns.egret.com/eui">
+			<e:Image source="activityPic1_jpg"/>
+			<e:Image source="activityPic2_jpg"/>
+			<e:Image source="activityPic3_jpg"/>
+			<e:Image source="activityPic4_jpg"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+	</ns1:ScrollView>
+</e:Skin>

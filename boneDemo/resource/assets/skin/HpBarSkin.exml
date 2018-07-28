@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpBarSkin" width="200" height="10" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="200" height="10" fillColor="0x707070" x="0" y="0" fillAlpha="10"/>
+	<e:Rect id="bar" width="200" height="10" fillAlpha="1" fillColor="0x06dd0e"/>
+</e:Skin>

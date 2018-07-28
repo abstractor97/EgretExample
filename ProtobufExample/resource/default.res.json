@@ -1,0 +1,28 @@
+{
+	"groups":[{
+			"keys":"bgImage,egretIcon,template_proto",
+			"name":"preload"
+		}],
+	"resources":[
+		{
+			"name":"bgImage",
+			"type":"image",
+			"url":"assets/bg.jpg"
+		},
+		{
+			"name":"egretIcon",
+			"type":"image",
+			"url":"assets/egret_icon.png"
+		},
+		{
+			"name":"description",
+			"type":"json",
+			"url":"config/description.json"
+		},
+		{
+			"name":"template_proto",
+			"type":"text",
+			"url":"assets/template.proto"
+		}
+	]
+}

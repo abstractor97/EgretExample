@@ -1,0 +1,25 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/res/res.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"promise/promise.js",
+		"libs/modules/game/game.js"
+	],
+	"game": [
+		"bin-debug/movieClip/BaseMovieClip.js",
+		"bin-debug/dragonbones/BoneFast.js",
+		"bin-debug/Main.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/dragonbones/BoneBin.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/dragonbones/BoneJson.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/movieClip/BoneMC.js",
+		"bin-debug/scene/HomeScene.js",
+		"bin-debug/scene/LoadScene.js"
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,code_jpg,test_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "code_jpg",
+			"type": "image",
+			"url": "assets/code.jpg"
+		},
+		{
+			"name": "test_png",
+			"type": "image",
+			"url": "assets/test.png"
+		}
+	]
+}

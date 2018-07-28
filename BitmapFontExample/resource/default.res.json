@@ -1,0 +1,11 @@
+{
+	"groups":[{
+			"keys":"test_fnt",
+			"name":"preload"
+		}],
+	"resources":[{
+			"name":"test_fnt",
+			"type":"font",
+			"url":"assets/test.fnt"
+		}]
+}

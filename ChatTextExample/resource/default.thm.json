@@ -1,0 +1,7 @@
+{
+  "skins": {},
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "src/HomeSceneSkin.exml"
+  ]
+}

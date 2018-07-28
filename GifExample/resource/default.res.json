@@ -1,0 +1,33 @@
+{
+	"groups":[{
+			"keys":"mask1__png,m21_r_png,mask1_png,m3_r_png",
+			"name":"preload"
+		}],
+	"resources":[
+		{
+			"name":"mask1__png",
+			"type":"image",
+			"url":"assets/mask1_.png"
+		},
+		{
+			"name":"m21_r_png",
+			"type":"image",
+			"url":"assets/m21_r.png"
+		},
+		{
+			"name":"mask1_png",
+			"type":"image",
+			"url":"assets/mask1.png"
+		},
+		{
+			"name":"m3_r_png",
+			"type":"image",
+			"url":"assets/m3_r.png"
+		},
+		{
+			"name":"pyy_jpeg",
+			"type":"image",
+			"url":"assets/pyy.jpeg"
+		}
+	]
+}

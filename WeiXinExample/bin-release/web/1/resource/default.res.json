@@ -1,0 +1,18 @@
+{
+	"groups":[{
+			"keys":"share_jpg,button_jpg",
+			"name":"preload"
+		}],
+	"resources":[
+		{
+			"name":"share_jpg",
+			"type":"image",
+			"url":"assets/share.jpg"
+		},
+		{
+			"name":"button_jpg",
+			"type":"image",
+			"url":"assets/button.jpg"
+		}
+	]
+}

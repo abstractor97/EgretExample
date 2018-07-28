@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UIPopupMenuSkin" width="182" height="46" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="listMask" width="182" height="20" y="0" x="0"/>
+	<e:Rect id="menuBgMask" width="182" height="20" x="0" y="0"/>
+	<e:Image id="menuBg" source="menubg_png" scale9Grid="46,32,92,75" x="0" y="0" mask="menuBgMask"/>
+	<e:List id="list" width="182" anchorOffsetX="0" x="0" y="0" mask="listMask"/>
+	<e:Button id="menuBtn" label="" anchorOffsetX="0" x="0" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="menubtn_png" source.down="menubtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

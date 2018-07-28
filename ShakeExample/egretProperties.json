@@ -1,0 +1,29 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "4.1.0",
+	"modules": [
+		{
+			"name": "egret",
+			"path": "${EGRET_APP_DATA}/4.1.0"
+		},
+		{
+			"name": "res",
+			"path": "${EGRET_APP_DATA}/4.1.0"
+		},
+		{
+			"name": "eui",
+			"path": "${EGRET_APP_DATA}/4.1.0"
+		},
+		{
+			"name": "tween",
+			"path": "${EGRET_APP_DATA}/4.1.0"
+		}
+	]
+}

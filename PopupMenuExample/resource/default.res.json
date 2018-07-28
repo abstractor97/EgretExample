@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,menubtn_png,menubg_png,select_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "menubtn_png",
+			"type": "image",
+			"url": "assets/menubtn.png"
+		},
+		{
+			"name": "menubg_png",
+			"type": "image",
+			"url": "assets/menubg.png"
+		},
+		{
+			"name": "select_png",
+			"type": "image",
+			"url": "assets/select.png"
+		}
+	]
+}

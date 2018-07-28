@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="1" fillColor="0x2a2de0"/>
+	<ns1:UIPopupMenu id="popupMenu" x="198" y="269" skinName="UIPopupMenuSkin"/>
+	<e:Label id="msgLabel" text="" x="198" y="204" anchorOffsetX="0" width="396" anchorOffsetY="0" height="44"/>
+</e:Skin>
