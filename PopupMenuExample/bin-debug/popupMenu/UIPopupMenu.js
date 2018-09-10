@@ -138,6 +138,12 @@ var UIPopupMenu = (function (_super) {
         this.close(false);
         this.dispatchEventWith(egret.TouchEvent.CHANGE, false, { selectedIndex: this.list.selectedIndex, itemValue: this.list.selectedItem.itemValue });
     };
+    UIPopupMenu.prototype.gC = function () {
+        //菜单按钮监听
+        this.menuBtn.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onMenuBtnTouch, this);
+        //列表监听
+        this.list.removeEventListener(egret.TouchEvent.CHANGE, this.onChange, this);
+    };
     return UIPopupMenu;
 }(eui.Component));
 __reflect(UIPopupMenu.prototype, "UIPopupMenu");

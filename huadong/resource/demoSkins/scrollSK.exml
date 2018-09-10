@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="scrollSK" width="630" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="moveScroll" width="600" height="1000" x="15" y="20">
+		<e:Group id="moveGroup" width="600" height="100"/>
+	</e:Scroller>
+</e:Skin>
