@@ -1,0 +1,14 @@
+<project version="1">
+  
+  <resPath>resource</resPath>
+  
+  <srcPath>src</srcPath>
+  
+  <proType>0</proType>
+  
+  <proTypeName>Egret UI</proTypeName>
+  <stageWidth>640</stageWidth>
+  <stageHeight>1036</stageHeight>
+  <backgroundColor>8947848</backgroundColor>
+  <egretVersion>3.0.3</egretVersion>
+</project>

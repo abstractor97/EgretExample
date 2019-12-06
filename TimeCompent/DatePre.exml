@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DatePre" xmlns:e="http://ns.egret.com/eui" width="31" height="35" states="up,down" >
+	<e:Group horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9">
+		<e:Image verticalCenter="0" horizontalCenter="0" x="-16" y="-18" scaleX="1" scaleY="1" source="d_sign_history_png"/>
+	</e:Group>
+</e:Skin>

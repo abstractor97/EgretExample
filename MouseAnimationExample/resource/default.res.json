@@ -1,0 +1,34 @@
+{
+	"groups": [
+		{
+			"keys": "build_png",
+			"name": "preload"
+		},
+		{
+			"keys": "load2_png,load2_json,music_btn_png",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/LoadingUI/music_btn.png",
+			"type": "image",
+			"name": "music_btn_png"
+		},
+		{
+			"url": "assets/LoadingUI/load2.png",
+			"type": "image",
+			"name": "load2_png"
+		},
+		{
+			"url": "assets/LoadingUI/load2.json",
+			"type": "json",
+			"name": "load2_json"
+		},
+		{
+			"url": "assets/build.png",
+			"type": "image",
+			"name": "build_png"
+		}
+	]
+}

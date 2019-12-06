@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="listSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="57" height="40">
+	<e:RadioButton id="radios" label="RadioButton" horizontalCenter="0" verticalCenter="0" skinName="Dates" name="date"/>
+</e:Skin>

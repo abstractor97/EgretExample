@@ -1,0 +1,3 @@
+<view name="LoadingUI" extend="wy.BaseSprite" width="640" height="1036">
+  <Label text="100%" x="245" y="498" width="150" height="40" align="center" color="0xff0000" size="20" font="微软雅黑" id="textField"/>
+</view>

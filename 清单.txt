@@ -22,4 +22,5 @@ WebSocketServer         websocket测试demo,包含白鹭和Flash服务端
 WeiXinExample           微信公众号接口测试，录音，获取用户信息等
 WxShouQuan              微信授权demo，包含php服务端
 YaoYiYaoExample         摇一摇demo
-
+TimeCompent 	日历组件
+MouseAnimationExample 鼠标点击特效组件

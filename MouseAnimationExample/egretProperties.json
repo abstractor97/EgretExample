@@ -1,0 +1,41 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "4.1.0",
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "md5",
+			"path": "../../EgretModules/md5"
+		},
+		{
+			"name": "h5uploader",
+			"path": "../../EgretModules/h5uploader_lib"
+		},
+		{
+			"name": "neoges_lib",
+			"path": "../../EgretModules/neoges_lib"
+		},
+		{
+			"name": "particle",
+			"path": "../../EgretModules/particle"
+		}
+	]
+}

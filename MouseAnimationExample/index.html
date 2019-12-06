@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Egret</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="full-screen" content="true" />
+	<meta name="screen-orientation" content="portrait" />
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="360-fullscreen" content="true" />
+	<script type="text/javascript" src="//serve.i-h5.cn/egret/common/exif.js"></script>
+	<script type="text/javascript" src="//serve.i-h5.cn/egret/common/jquery-1.4.1.js"></script>
+	<style>
+		html,
+		body {
+			-ms-touch-action: none;
+			background: #fbfbfb;
+			padding: 0;
+			border: 0;
+			margin: 0;
+			height: 100%;
+		}
+	</style>
+
+	<!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+	<!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<!--modules_files_end-->
+
+	<!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+	
+
+	<!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+	<!--game_files_start-->
+	<script egret="game" src="bin-debug/wy/basic/comp/BaseSprite.js"></script>
+	<script egret="game" src="bin-debug/pageUI/fireworksUI.js"></script>
+	<script egret="game" src="bin-debug/pageUI/LoadingUIUI.js"></script>
+	<script egret="game" src="bin-debug/wy/htmlText/SingleClass.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/Gesture.js"></script>
+	<script egret="game" src="bin-debug/StaticVar.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/wy/basic/comp/ItemRenderer.js"></script>
+	<script egret="game" src="bin-debug/wy/basic/comp/List.js"></script>
+	<script egret="game" src="bin-debug/wy/basic/comp/ScrollerList.js"></script>
+	<script egret="game" src="bin-debug/wy/basic/GameInterface.js"></script>
+	<script egret="game" src="bin-debug/wy/control/BaseViewManager.js"></script>
+	<script egret="game" src="bin-debug/wy/control/FreshNotifyManager.js"></script>
+	<script egret="game" src="bin-debug/wy/data/Data.js"></script>
+	<script egret="game" src="bin-debug/wy/data/FreshType.js"></script>
+	<script egret="game" src="bin-debug/wy/data/Json.js"></script>
+	<script egret="game" src="bin-debug/wy/data/PopType.js"></script>
+	<script egret="game" src="bin-debug/wy/htmlText/HTMLText.js"></script>
+	<script egret="game" src="bin-debug/page/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/wy/htmlText/StageMain.js"></script>
+	<script egret="game" src="bin-debug/wy/htmlText/StageUtils.js"></script>
+	<script egret="game" src="bin-debug/wy/interfaces/IItemRenderer.js"></script>
+	<script egret="game" src="bin-debug/wy/interfaces/IPageSwitch.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/BGM.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/DateMenu.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/Dialog.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/EWM.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/GameTimer.js"></script>
+	<script egret="game" src="bin-debug/page/fireworks.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/HeadImg.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/InputUtils.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/LoadingData.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/MenuUtils.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/RandomUtils.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/RegUtils.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/Slider.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/StageBtnUtils.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/Toast.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/Tools.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/TouchEffects.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/Tween.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/UploadImg.js"></script>
+	<script egret="game" src="bin-debug/wy/Utils/Yaoyiyao.js"></script>
+	<script egret="game" src="bin-debug/wy/version/Wyh5VersionController.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/basic/In/PageAlphaIn.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/basic/In/PageBottomIn.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/basic/In/PageLeftIn.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/basic/In/PageRightIn.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/basic/In/PageScaleIn.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/basic/In/PageTopIn.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/basic/Out/PageAlphaOut.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/basic/Out/PageBottomOut.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/basic/Out/PageLeftOut.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/basic/Out/PageRightOut.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/basic/Out/PageScaleOut.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/basic/Out/PageTopOut.js"></script>
+	<script egret="game" src="bin-debug/wy/Views/PageSwitchEffect/PageSwitch.js"></script>
+	<!--game_files_end-->
+	<!--<script src='http://serve.i-h5.cn/egret/common/vconsole.min.js'></script>-->
+
+</head>
+
+<body>
+
+	<div id="gameID" style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="Main" data-orientation="auto"
+		data-scale-mode="fixedNarrow" data-frame-rate="60" data-content-width="640" data-content-height="1036" data-show-paint-rect="false"
+		data-multi-fingered="2" data-show-fps="false" data-show-log="false" data-log-filter="" data-show-fps-style="x:0,y:0,size:12,textColor:0x00c200,bgAlpha:0.9">
+		<img id="loading" src="//serve.i-h5.cn/egret/common/loading2.gif" alt="" style="width:10%;margin-left: 50%;position: relative;left: -5%;  top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);"/>
+		<!--<img id="loading" src="//serve.i-h5.cn/egret/common/rlogo.gif" alt="" style="width:30%;margin-left: 50%;position: relative;left: -15%;  top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);"/>-->
+	</div>
+	<!--<div id="gameID"></div>-->
+	<script type="text/javascript">
+                document.write("<s" + "cript type='text/javascript' src='//serve.i-h5.cn/common/share.php?type=js&v=" + Math.random() + "'></s" + "cript>");
+    </script>
+
+	<script>
+		function is_weixin(){var ua = navigator.userAgent.toLowerCase();if(ua.match(/MicroMessenger/i)=="micromessenger") {return true;} else {return false;}}
+
+		//游戏链接地址目录
+		var gameUrl = window.location.protocol+ '//serve.i-h5.cn/ljd_game/TestWy/';
+		//游戏版本号
+		var gameVersion = "0.0.1";
+		//分享到朋友数据
+		var sharedata = {
+			title: '分享语',
+ 			desc: '分享语',
+ 			link: gameUrl+'index.html',
+ 			imgUrl: gameUrl+'icon.jpg'
+		};
+		//分享到朋友圈数据 默认和分享朋友一样
+		var timelinedata = {
+			title: sharedata.title,
+ 			link: sharedata.link,
+ 			imgUrl: sharedata.imgUrl
+		}
+		//非微信环境 ready执行不了，直接runEgret
+		// if(!is_weixin()) { 
+			setTimeout(function() {egret.runEgret({"renderMode":"webgl"});}, 100);
+		// }
+
+		function jwxOnload() {
+			wx.config({jsApiList: ['checkJsApi','onMenuShareTimeline','onMenuShareAppMessage','onMenuShareQQ','onMenuShareWeibo','onMenuShareQZone','hideMenuItems','showMenuItems','hideAllNonBaseMenuItem','showAllNonBaseMenuItem','translateVoice','startRecord','stopRecord','onVoiceRecordEnd','playVoice','onVoicePlayEnd','pauseVoice','stopVoice','uploadVoice','downloadVoice','chooseImage','previewImage','uploadImage','downloadImage','getNetworkType','openLocation','getLocation','hideOptionMenu','showOptionMenu','closeWindow','scanQRCode','chooseWXPay','openProductSpecificView','addCard','chooseCard','openCard'],
+				debug: false,
+				appId: wx_config['appId'],
+				timestamp: wx_config['timestamp'],
+				nonceStr: wx_config['nonceStr'],
+				signature: wx_config['signature']
+			});
+
+			sharedata.trigger = function (res) {};
+			sharedata.cancel = function (res) {};
+			sharedata.fail = function (res) {};
+			sharedata.success = function (res) {egret.MainContext.instance.stage.dispatchEventWith("yifenxiang", false);/*分享朋友成功*/};
+
+			timelinedata.trigger = function (res) {};
+			timelinedata.cancel = function (res) {};
+			timelinedata.fail = function (res) {};
+			timelinedata.success = function (res) {egret.MainContext.instance.stage.dispatchEventWith("yifenxiang", false);/*分享朋友圈成功*/};
+		
+			wx.ready(function () {
+				//type: 'link',//分享类型，music、video、link，默认是link
+				//dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+				wx.onMenuShareAppMessage(sharedata);
+			
+				wx.onMenuShareTimeline(timelinedata);
+			
+				egret.log("初始化wx分享成功！");
+				// if(is_weixin()) {setTimeout(function() {egret.runEgret({"renderMode":"webgl"});}, 100);}
+			});
+			wx.error(function(res){ /* config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。*/
+				// alert("微信分享实例化失败，请检查网络或重试！");
+			});
+		}
+	</script>
+	<script src="//res.wx.qq.com/open/js/jweixin-1.0.0.js" onload="jwxOnload()"></script>
+	<!--<script src="http://serve.i-h5.cn/egret/common/hm.js"></script>-->
+
+</body>
+
+</html>

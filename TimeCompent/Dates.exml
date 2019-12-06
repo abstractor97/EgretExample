@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Dates" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width="36" height="36">
+	<e:Group horizontalCenter="0" verticalCenter="0" name.up="dateGroup">
+		<e:Image scaleX="1.2" scaleY="1.2" horizontalCenter="0" verticalCenter="0" visible.up="false" source="d_sign_date_selected_png"/>
+		<e:Label text="31" height="30" verticalCenter="0" width="35" horizontalCenter="0" textColor="0x69c2de" textColor.down="0x05314a" name="dates" name.up="dates" textAlign="center"/>
+	</e:Group>
+</e:Skin>

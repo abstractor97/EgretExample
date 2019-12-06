@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="btn_close" xmlns:e="http://ns.egret.com/eui" states="up,down"  height="70">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" width="232" visible.down="false" source="d_date_selected_bian2_png" scale9Grid="12,8,6,10"/>
+		<e:Label text="确定" horizontalCenter="0" verticalCenter="0" size="36" fontFamily="Microsoft YaHei" textColor="0xffffff"/>
+		<e:Label text="确定" horizontalCenter="0" verticalCenter="0" size="36" fontFamily="Microsoft YaHei" textColor="0xffffff"/>
+	</e:Group>
+</e:Skin>
