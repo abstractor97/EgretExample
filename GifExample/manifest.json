@@ -5,7 +5,8 @@
 		"libs/modules/eui/eui.js",
 		"libs/modules/res/res.js",
 		"libs/modules/tween/tween.js",
-		"libsrc/weixinapi/bin/weixinapi/weixinapi.js"
+		"libsrc/weixinapi/bin/weixinapi/weixinapi.js",
+		"promise/bin/promise.js"
 	],
 	"game": [
 		"bin-debug/AssetAdapter.js",

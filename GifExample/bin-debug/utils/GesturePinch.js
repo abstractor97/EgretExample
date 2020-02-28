@@ -1,12 +1,10 @@
 var __reflect = (this && this.__reflect) || function (p, c, t) {
     p.__class__ = c, t ? t.push(c) : t = [c], p.__types__ = p.__types__ ? t.concat(p.__types__) : t;
 };
-var __extends = this && this.__extends || function __extends(t, e) { 
- function r() { 
- this.constructor = t;
-}
-for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
-r.prototype = e.prototype, t.prototype = new r();
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 /**
 *  文 件 名： GesturePinch.ts
@@ -26,7 +24,7 @@ r.prototype = e.prototype, t.prototype = new r();
 var GesturePinch = (function (_super) {
     __extends(GesturePinch, _super);
     function GesturePinch() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super.apply(this, arguments) || this;
         _this.touchIDList = new Array(); //触点ID
         _this.initTouchPos = {}; //触点初始位置
         _this.curTouchPos = {}; //触点当前位置

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FirtPageSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16e267d679b" ></w:Config>
+	<ns1:Banner id="banner" width="750" height="187" x="0" y="0" skinName="panels.BannerSkin"/>
+	<e:Label text="scroll和list实现广告位自动滑动，也可以手动滑动" y="660" width="600" textAlign="left" size="50" anchorOffsetY="0" height="168" horizontalCenter="0"/>
+</e:Skin>

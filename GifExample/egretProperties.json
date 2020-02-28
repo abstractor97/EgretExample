@@ -20,10 +20,6 @@
     },
     {
       "name": "tween"
-    },
-    {
-	  "name": "weixinapi",
-	  "path": "libsrc/weixinapi"
-	}
+    }
   ]
 }

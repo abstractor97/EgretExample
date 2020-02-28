@@ -7,16 +7,15 @@ var game_file_list = [
 	"libs/modules/eui/eui.js",
 	"libs/modules/res/res.js",
 	"libs/modules/tween/tween.js",
-	"libs/modules/weixinapi/weixinapi.js",
-	"bin-debug/utils/GesturePinch.js",
-	"bin-debug/AssetAdapter.js",
-	"bin-debug/view/HomeScene.js",
 	"bin-debug/utils/GestureDrag.js",
+	"bin-debug/AssetAdapter.js",
+	"bin-debug/utils/StageUtils.js",
+	"bin-debug/view/HomeScene.js",
 	"bin-debug/base/SingleClass.js",
 	"bin-debug/ThemeAdapter.js",
 	"bin-debug/Main.js",
 	"bin-debug/LoadingUI.js",
-	"bin-debug/utils/StageUtils.js",
+	"bin-debug/utils/GesturePinch.js",
 	//----auto game_file_list end----
 ];
 
